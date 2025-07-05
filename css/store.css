@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.search-container{
+    width: fit-content;
+    margin: 15px;
+    position: relative;
+
+}
+.search-container button{
+    padding: 13px 17px;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    background-color: rgb(83, 83, 244);
+    border-radius: 7px;
+}
+#buttons{
+    margin: 13px;
+}
+#buttons button:first-child{
+    padding:10px 15px;
+    border-radius: 50px;
+
+}
+
+
+.button-value{
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+.active{
+    background-color: rgb(188, 119, 252);
+}
+.search-container input{
+    width: 500px;
+    height: 40px;
+    padding: 12px;
+    margin: 15px;
+    border: 0;
+    outline: 0;
+    position: relative;
+}
+
+.search-container::before{
+    content: '';
+    width: 500px;
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    top: 55px;
+    left: 16px;
+}
+.image-container {
+    width: 200px;
+    height: 200px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 15px;
+}
+.hide{
+    display: none;
+}
+#products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card .container h5{
+    padding: 10px;
+}
+.card .container h6{
+    padding:0 0 10px 10px;
+}
+.card{
+    margin: 15px;
+    width: fit-content;
+    background-color: white;
+    
+}
