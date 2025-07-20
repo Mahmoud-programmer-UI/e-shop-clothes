@@ -100,5 +100,7 @@ body{
     }
     .button-value{
         margin-left: 5px;
+       padding: 7px;
+ 
     }
 }
