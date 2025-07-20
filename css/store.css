@@ -100,6 +100,8 @@ body{
     .button-value{
         margin-left: 5px;
         padding: 7px;
- 
+    }
+    .search-container button{
+        padding: 10px 14px;
     }
 }
