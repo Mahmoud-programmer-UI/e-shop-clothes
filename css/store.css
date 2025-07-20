@@ -103,5 +103,6 @@ body{
     }
     .search-container button{
         padding: 10px 14px;
+        margin-top: 20px;
     }
 }
