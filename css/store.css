@@ -93,10 +93,10 @@ body{
     grid-template-columns: auto  auto;
     }
     .search-container input{
-        width: 200px;
+        width: 230px;
     }
     .search-container::before{
-        width: 200px;
+        width: 230px;
     }
     .button-value{
         margin-left: 5px;
