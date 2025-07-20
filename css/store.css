@@ -13,6 +13,7 @@ body{
 
 }
 .search-container button{
+    margin-top: 10px;
     padding: 13px 17px;
     color: white;
     border: 0;
@@ -28,8 +29,6 @@ body{
     padding:10px 15px;
     border-radius: 50px;
 }
-
-
 .button-value{
     margin-left: 20px;
     border: 0;
@@ -100,7 +99,7 @@ body{
     }
     .button-value{
         margin-left: 5px;
-       padding: 7px;
+        padding: 7px;
  
     }
 }
